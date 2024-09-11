@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>languages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">C</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Java</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About languages</h2>
+            <p>Learning Different Types of languages</p>
+        </section>
+    </main>
+    <main>
+        <section>
+            <h3>C</h3>
+            <p>C is a powerful general-purpose programming language.It has been widely used for system programming, developing operating systems , embedded systems, and applications that require high performance and low-level hardware control</p>
+        </section>
+    </main>
+    <main>
+        <section>
+            <h4>Python</h4>
+        <p>Python is a versatile, high-level, and easy-to-learn programming language known for its readability  It is widely used for a variety of applications, from web development to data science and artificial intelligence.
+
+        </p>
+        </section>
+    </main>
+    <main>
+        <section>
+            <h5>java</h5>
+            <p>Java is a high-level, object-oriented programming language designed for portability and performance  It was created by James Gosling and released by Sun Microsystems in 1995. Java’s “write once, run anywhere” philosophy allows developers to write code that can be run on any platform that supports Java, without modification.
+
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
